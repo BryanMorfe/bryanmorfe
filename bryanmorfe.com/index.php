@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
  <head>
-  <title>HTML testing page</title>
+  <title>Bryan Morfe - Computer Scientist</title>
   <link href="css/structure.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Assistant:300|Catamaran:800|Noto+Sans|Palanquin:100|Raleway:200" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

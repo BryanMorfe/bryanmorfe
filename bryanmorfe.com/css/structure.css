@@ -332,6 +332,13 @@ button {
     background-color: rgb(245, 255, 244);
 }
 
+/* Footer */
+
+#footer {
+	height: 80px;
+	background-color: #1F1F1F;
+}
+
 /* Clear fix */
 
 .clearfix:after {

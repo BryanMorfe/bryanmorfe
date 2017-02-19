@@ -33,8 +33,8 @@
      <h2 class="section-title">WELCOME</h2>
      <div class="card card-flex-9 clickable-card">
       <img src="imgs/mypic.png" class="profile-img-lg">
-      <h3 class="card-title">Jarrod Parkes in iOS Development</h3>
-      <p class="card-content">Jarrod Parkes is the lead instructor in Udacity's Nanodegree in iOS Development. He has worked...</p>
+      <h3 class="card-title">The Swift Programming Language</h3>
+      <p class="card-content">The Swift programming language has gained popularity very quickly during the last years. Since it was made open source in 2015. It became the #1 programming language in GitHub, where its source code is being currently held.</p>
      </div>
      <div class="card card-flex-3 clickable-card">
       <img src="imgs/mypic.png" class="profile-img-md">
@@ -100,5 +100,10 @@
 
   </main>
 
+  <footer id="footer">
+  	<div class="main-content">
+  		
+  	</div>
+  </footer>
  </body>
 </html>

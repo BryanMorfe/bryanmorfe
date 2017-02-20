@@ -355,6 +355,13 @@ button {
 	display: inline-block;
 }
 
+#footer .social-media-img {
+	background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+}
+
 /* Clear fix */
 
 .clearfix:after {

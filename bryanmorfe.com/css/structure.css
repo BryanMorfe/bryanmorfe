@@ -336,7 +336,7 @@ button {
 /* Footer */
 
 #footer {
-	height: 80px;
+	height: 160px;
 	background-color: #1F1F1F;
 }
 
@@ -345,7 +345,6 @@ button {
 }
 
 #footer #copy {
-	line-height: 80px;
 	font-size: 90%;
 	text-align: center;
 }

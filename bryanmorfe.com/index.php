@@ -111,11 +111,11 @@
   		</ul>
   		<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
   		<ul class="social-media">
-  			<li><a href="#">LinkedIn</a></li>
-  			<li><a href="#">GitHub</a></li>
-  			<li><a href="#">Twitter</a></li>
-  			<li><a href="#">Instagram</a></li>
-  			<li><a href="#">Google+</a></li>
+  			<li><a href="#"><img class="social-media-img" src="imgs/linkedin.png" alt="LinkedIn"></a></li>
+  			<li><a href="#"><img class="social-media-img" src="imgs/github.png" alt="GitHub"></a></li>
+  			<li><a href="#"><img class="social-media-img" src="imgs/twitter.png" alt="Twitter"></a></li>
+  			<li><a href="#"><img class="social-media-img" src="imgs/instagram.png" alt="Instagram"></a></li>
+  			<li><a href="#"><img class="social-media-img" src="imgs/google+.png" alt="Google+"></a></li>
   		</ul>
   	</div>
   </footer>

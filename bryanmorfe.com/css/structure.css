@@ -367,6 +367,7 @@ button {
 
 #footer .social-media li {
 	display: inline-block;
+	margin-right: 5px;
 }
 
 #footer .social-media-img {

@@ -1,4 +1,7 @@
 $(function() {
+	
+	/* Setup cards */
+	
     $(".expandable-card .card-info").hide();
     $(".expandable-card").css({ 
         "width": "150px", 
@@ -38,4 +41,23 @@ $(function() {
              }
         });
     });
+	
+	/* Load information from json files. */
+	
+	var blogObj;
+	
+	var xmlHTTPRequest = new XMLHttpRequest();
+	alert("Executed.");
+	xmlHTTPRequest.onreadystatechange(function() {
+		
+		if (this.readyState == 4 && this.status == 200) {
+			var blogArray = JSON.parse(this.responseText);
+			blogObj = blogArray[0];
+			$("#blog-title").text(blogObj["post-title"]);
+			$("#blog-content").text(blogObj["post-date"]);
+			alert("Got in.");
+		}
+	});
+	xmlHTTPRequest.open("GET", "../json/blog.json");
+	xmlHTTPRequest.send();
 });

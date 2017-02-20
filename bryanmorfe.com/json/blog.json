@@ -1,0 +1,24 @@
+[
+	{
+		"post-author": "Bryan Morfe",
+		"post-title": "Swift in iOS Development",
+		"post-date": "February 20, 2017",
+		"sections":
+		[
+			{
+				"section-title": "Swift",
+				"section-paragraphs":
+				[
+					"Swift is a general-purpose programming language developed by Apple, Inc. It has gained popularity in the past years. Swift is one of the fastest growing programming language because of it's versatility, conveniece, and of course, for introducing a new paradigm called Protocol-Oriented Programming."
+				]
+			},
+			{
+				"section-title": "Swift is Open Source",
+				"section-paragraphs":
+				[
+					"When swift came out in 2013 it was as private as a catholic rabbit, but the developers at Apple soon realized that if it continued to be that way, it would restrain the language from growth, so in 2015, at a WWDC Conference they announced that swift was made open source. After that announcement, swift became the most popular open source programming language in GitHub. If you want to take a took visit swift.org."
+				]
+			}
+		]
+	}
+]

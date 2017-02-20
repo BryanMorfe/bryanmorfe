@@ -1,0 +1,22 @@
+{
+	"first_name": "Bryan",
+	"last_name": "Morfe",
+	"short_description": "I am...",
+	"sections":
+	[
+		{
+			"section-title": "My Career",
+			"section-paragraphs": 
+			[
+				"I am currently a student of Computer Science at William Paterson University of New Jersey, expecting to graduate on 2019. Every semester I have attended I have proudly made the dean's list and hopefully will continue to be there until graduation."	
+			]
+		},
+		{
+			"section-title": "I Love Networking",
+			"section-paragraphs": [
+				"I love to network. If you are an iOS Developer, or any kind of developer for that matter, let's get to know each other. You can get in contact with me via any of the listed social networks, email, or even by using the contact form.",
+				"I also love contributions and contributors, if you think you can contribute to any of my current projects or my portfolio apps, also get in touch with me! You can go to my GitHub profile make pull requests! I will be more than happy to receive requests."
+			]
+		}
+	]
+}

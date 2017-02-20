@@ -1,0 +1,19 @@
+{
+	"projects": 
+	[
+	  	{
+			"title": "VirtualTourist",
+			"description": "On The Map is a project requirement to earn an iOS Development Nanodegree from Udacity.com. It consists on traveling virtually in the world. You set a destination in a map and then you get photos from the location using the Flickr API. It is still in development and it is written completely in Swift.",
+			"featured-img": "/imgs/virtualtourist.png",
+			"github": "https://github.com/BryanMorfe/VirtualTourist",
+			"download": "ttps://github.com/BryanMorfe/MemeMe/archive/master.zip"
+	  	},
+		{
+			"title": "Plain Text Database (PTDB)",
+			"description": "PTDB is a python module that I wrote for fun. It is a parser for plain text. It is a very effective and fast solution for non sensitive local data. It reads from a ptdb-formatted text file and parses all the information into a program that imports it. It was written completely in Python 2.7 but it's backwards compatible with Python 3. PTDB is in active Development."
+			"featured-img": "/imgs/ptdb.png",
+			"github": "https://github.com/BryanMorfe/PTDB",
+			"download": "https://github.com/BryanMorfe/PTDB/archive/master.zip"
+	  	}
+	]
+}

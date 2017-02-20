@@ -351,6 +351,10 @@ button {
 	text-align: center;
 }
 
+#footer .social-media {
+	margin: 2px auto;
+}
+
 #footer .social-media li {
 	display: inline-block;
 }

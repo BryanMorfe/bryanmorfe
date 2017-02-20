@@ -111,12 +111,12 @@
   				</ul>
   				<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
   				<ul class="social-media">
-  					<li><a href="#"><img class="social-media-img" src="imgs/Linkedin.png" alt="LinkedIn"></a></li>
-  					<li><a href="#"><img class="social-media-img" src="imgs/GitHub.png" alt="GitHub"></a></li>
-  					<li><a href="#"><img class="social-media-img" src="imgs/Twitter.png" alt="Twitter"></a></li>
-  					<li><a href="#"><img class="social-media-img" src="imgs/Facebook.png" alt="Facebook"></a></li>
-  					<li><a href="#"><img class="social-media-img" src="imgs/Instagram.png" alt="Instagram"></a></li>
-  					<li><a href="#"><img class="social-media-img" src="imgs/Google+.png" alt="Google+"></a></li>
+  					<li><a href="https://www.linkedin.com/in/bryan-morfe-911277127/"><img class="social-media-img" src="imgs/Linkedin.png" alt="LinkedIn"></a></li>
+  					<li><a href="https://github.com/BryanMorfe/"><img class="social-media-img" src="imgs/GitHub.png" alt="GitHub"></a></li>
+  					<li><a href="https://twitter.com/bryanmorfe"><img class="social-media-img" src="imgs/Twitter.png" alt="Twitter"></a></li>
+  					<li><a href="https://www.facebook.com/profile.php?id=809519151"><img class="social-media-img" src="imgs/Facebook.png" alt="Facebook"></a></li>
+  					<li><a href="https://instagram.com/bryanmorfe"><img class="social-media-img" src="imgs/Instagram.png" alt="Instagram"></a></li>
+  					<li><a href="https://plus.google.com/u/1/+brzrtEvolucionMusical"><img class="social-media-img" src="imgs/Google+.png" alt="Google+"></a></li>
   				</ul>
   			</div>
   		</footer>

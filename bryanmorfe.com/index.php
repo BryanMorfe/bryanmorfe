@@ -109,14 +109,14 @@
   			<li><a href="#">About Me</a></li>
   			<li><a href="#">Contact</a></li>
   		</ul>
-  		<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
   		<ul class="social-media">
-  			<li><a href="#"><img class="social-media-img" src="imgs/linkedin.png" alt="LinkedIn"></a></li>
-  			<li><a href="#"><img class="social-media-img" src="imgs/github.png" alt="GitHub"></a></li>
-  			<li><a href="#"><img class="social-media-img" src="imgs/twitter.png" alt="Twitter"></a></li>
-  			<li><a href="#"><img class="social-media-img" src="imgs/instagram.png" alt="Instagram"></a></li>
-  			<li><a href="#"><img class="social-media-img" src="imgs/google+.png" alt="Google+"></a></li>
+  			<li><a href="#"><img class="profile-img-xsm" src="imgs/linkedin.png" alt="LinkedIn"></a></li>
+  			<li><a href="#"><img class="profile-img-xsm" src="imgs/github.png" alt="GitHub"></a></li>
+  			<li><a href="#"><img class="profile-img-xsm" src="imgs/twitter.png" alt="Twitter"></a></li>
+  			<li><a href="#"><img class="profile-img-xsm" src="imgs/instagram.png" alt="Instagram"></a></li>
+  			<li><a href="#"><img class="profile-img-xsm" src="imgs/google+.png" alt="Google+"></a></li>
   		</ul>
+  		<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
   	</div>
   </footer>
  </body>

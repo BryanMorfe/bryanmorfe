@@ -190,6 +190,7 @@ button {
 .blue-tinted-header {
     position: relative;
 }
+
 .green-tinted-header {
     position: relative;
 }
@@ -218,6 +219,7 @@ button {
     float: left;
     min-height: 500px;
 }
+
 .card-flex-3 {
     width: 23%;
 }

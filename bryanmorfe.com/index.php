@@ -103,6 +103,13 @@
   <footer id="footer">
   	<div class="main-content">
   		<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
+  		<ul>
+  			<li><a href="#">Home</a></li>
+  			<li><a href="#">Projects</a></li>
+  			<li><a href="#">Portfolio</a></li>
+  			<li><a href="#">About Me</a></li>
+  			<li><a href="#">Contact</a></li>
+  		</ul>
   	</div>
   </footer>
  </body>

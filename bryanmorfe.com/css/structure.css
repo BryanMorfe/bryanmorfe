@@ -338,7 +338,7 @@ button {
 /* Footer */
 
 #footer {
-	height: 200px;
+	height: 235px;
 	background-color: #1F1F1F;
 }
 
@@ -347,13 +347,25 @@ button {
 }
 
 #footer .footer-menu {
-	margin-top: 2px;
-	margin-bottom: 2px;
+	padding-top: 5px;
+	margin-left: 2%;
 }
 
 #footer .footer-menu li {
 	font-family: 'Assistant', sans-serif;
-	margin-top: 5px;
+	margin-top: 7.5px;
+}
+
+#footer .footer-menu li a {
+	-o-transition: color 0.3s;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+#footer .footer-menu li a:hover {
+	color: #9D9D9D;
+	margin: auto;
 }
 
 #footer #copy {
@@ -362,16 +374,19 @@ button {
 }
 
 #footer .social-media {
-	margin: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
 }
 
 #footer .social-media li {
-	display: inline-block;
+	display: inline;
+	margin-left: 5px;
 	margin-right: 5px;
 }
 
 #footer .social-media-img {
-	background-color: white;
+	background-color: #323232;
     width: 30px;
     height: 30px;
     border-radius: 15px;

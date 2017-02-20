@@ -110,6 +110,13 @@
   			<li><a href="#">Contact</a></li>
   		</ul>
   		<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
+  		<ul class="social-media">
+  			<li><a href="#">LinkedIn</a></li>
+  			<li><a href="#">GitHub</a></li>
+  			<li><a href="#">Twitter</a></li>
+  			<li><a href="#">Instagram</a></li>
+  			<li><a href="#">Google+</a></li>
+  		</ul>
   	</div>
   </footer>
  </body>

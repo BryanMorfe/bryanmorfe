@@ -340,7 +340,7 @@ button {
 	background-color: #1F1F1F;
 }
 
-#footer p {
+#footer p, #footer li, #footer a {
 	color: #FFFFFF;
 }
 

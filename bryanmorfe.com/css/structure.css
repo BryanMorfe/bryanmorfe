@@ -339,6 +339,10 @@ button {
 	background-color: #1F1F1F;
 }
 
+#footer p {
+	color: #FFFFFF;
+}
+
 #footer #copy {
 	line-height: 80px;
 }

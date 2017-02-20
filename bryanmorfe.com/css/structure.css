@@ -346,6 +346,15 @@ button {
 	color: #FFFFFF;
 }
 
+#footer .footer-menu {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#footer .footer-menu li {
+	margin-top: 2px;
+}
+
 #footer #copy {
 	font-size: 90%;
 	text-align: center;

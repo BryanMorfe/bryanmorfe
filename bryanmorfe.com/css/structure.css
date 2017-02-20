@@ -350,6 +350,10 @@ button {
 	text-align: center;
 }
 
+#footer .footer-menu {
+	display: inline-block;
+}
+
 /* Clear fix */
 
 .clearfix:after {

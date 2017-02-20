@@ -102,7 +102,7 @@
 
   <footer id="footer">
   	<div class="main-content">
-  		
+  		<p id="copy">Copyright &copy; 2017 Bryan Morfe. All rights reserved.</p>
   	</div>
   </footer>
  </body>

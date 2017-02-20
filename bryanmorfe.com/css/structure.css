@@ -339,6 +339,10 @@ button {
 	background-color: #1F1F1F;
 }
 
+#footer #copy {
+	line-height: 80px;
+}
+
 /* Clear fix */
 
 .clearfix:after {

@@ -352,7 +352,8 @@ button {
 }
 
 #footer .footer-menu li {
-	margin-top: 2px;
+	font-family: 'Assistant', sans-serif;
+	margin-top: 5px;
 }
 
 #footer #copy {

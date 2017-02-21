@@ -9,8 +9,15 @@
 			"download": "ttps://github.com/BryanMorfe/MemeMe/archive/master.zip"
 	  	},
 		{
-			"title": "Plain Text Database (PTDB)",
-			"description": "PTDB is a python module that I wrote for fun. It is a parser for plain text. It is a very effective and fast solution for non sensitive local data. It reads from a ptdb-formatted text file and parses all the information into a program that imports it. It was written completely in Python 2.7 but it's backwards compatible with Python 3. PTDB is in active Development."
+			"title": "BryanMorfe.com",
+			"description": "BryanMorfe.com is the website you are using right now. It is part of my portfolio as I built it on my own from zero to one hundred, as of right now, it only uses one framework which is jQuery for JavaScript. It is written in HTML, CSS, PHP, JavaScript, and JavaScript Object Notation (JSON).",
+			"featured-img": "/imgs/mememe.png",
+			"github": "https://github.com/BryanMorfe/MemeMe",
+			"download": "https://github.com/BryanMorfe/MemeMe/archive/master.zip"
+	  	},
+		{
+			"title": "PlainTextDatabase (PTDB)",
+			"description": "PTDB is a python module that I wrote for fun. It is an effective and fast solution to store non sensitive data in a text file. It reads from a ptdb-formatted text file and parses all the information in the file. It was written in Python 2.7 but it's backwards compatible with Python 3.",
 			"featured-img": "/imgs/ptdb.png",
 			"github": "https://github.com/BryanMorfe/PTDB",
 			"download": "https://github.com/BryanMorfe/PTDB/archive/master.zip"

@@ -42,8 +42,8 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
      				</div>
      				<div class="card card-flex-3 clickable-card">
       					<img src="imgs/mypic.png" class="profile-img-md">
-      					<h3 class="card-title">Bryan Morfe</h3>
-      					<p class="card-content">I am...</p>
+      					<h3 class="card-title" id="about-me-name"></h3>
+      					<div class="card-content" id="about-me-content"></div>
      				</div>
     			</div>
    			</div>
@@ -51,26 +51,26 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
   			<div id="projects-section" class="clearfix">
     			<div class="main-content">
      				<h2 class="section-title">PROJECTS</h2>
-     				<div class="card card-flex-6 clickable-card">
+     				<div class="card card-flex-6 clickable-card project">
       					<figure class="card-header blue-tinted-header rounded-header">
-       						<img src="imgs/ios-development.jpg">
+       						<img id="last-project-img" src="imgs/ios-development.jpg">
       					</figure>
-      					<h3 class="card-title">iOS Development</h3>
-      					<p class="card-content">iOS Deveplopment has grown exponentially during the year of 2016. It appears more and more people are harnessing the power of mobile development, especially now that Apple's new programming language is gaining popularity.</p>
+      					<h3 class="card-title" id="last-project-title"></h3>
+      					<p class="card-content" id="last-project-content"></p>
      				</div>
-     				<div class="card card-flex-3 clickable-card">
+     				<div class="card card-flex-3 clickable-card project">
       					<figure class="card-header green-tinted-header rounded-header">
-       						<img src="imgs/ios-developer.jpg">
+       						<img id="second-to-last-project-img" src="imgs/ios-developer.jpg">
       					</figure>
-      					<h3 class="card-title">iOS Development</h3>
-      					<p class="card-content">iOS Deveplopment has grown exponentially during the year of 2016. It appears more and more people are harnessing the power of mobile development, especially now that Apple's new programming language is gaining popularity.</p>
+      					<h3 class="card-title" id="second-to-last-project-title"></h3>
+      					<p class="card-content" id="second-to-last-project-content"></p>
      				</div>
-     				<div class="card card-flex-3 clickable-card">
+     				<div class="card card-flex-3 clickable-card project">
       					<figure class="card-header green-tinted-header rounded-header">
-       						<img src="imgs/ios-developer.jpg">
+       						<img id="third-to-last-project-img" src="imgs/ios-developer.jpg">
       					</figure>
-      					<h3 class="card-title">iOS Development</h3>
-      					<p class="card-content">iOS Deveplopment has grown exponentially during the year of 2016. It$
+      					<h3 class="card-title" id="third-to-last-project-title"></h3>
+						<p class="card-content" id="third-to-last-project-content"></p>
      				</div>
     			</div>
    			</div>
@@ -80,24 +80,24 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
      <h2 class="section-title">PORTFOLIO</h2>
      <div class="card card-flex-6 clickable-card">
       <figure class="card-header blue-tinted-header rounded-header">
-       <img src="imgs/ios-development.jpg">
+       <img id="last-portfolio-img" src="imgs/ios-development.jpg">
       </figure>
-      <h3 class="card-title">iOS Development</h3>
-      <p class="card-content">iOS Deveplopment has grown exponentially during the year of 2016. It appears more and more people$
+      <h3 class="card-title" id="last-portfolio-title"></h3>
+		 <p class="card-content" id="last-portfolio-content"></p>
      </div>
      <div class="card card-flex-3 clickable-card">
       <figure class="card-header green-tinted-header rounded-header">
-       <img src="imgs/ios-developer.jpg">
+       <img id="second-to-last-portfolio-img" src="imgs/ios-developer.jpg">
       </figure>
-      <h3 class="card-title">iOS Development</h3>
-      <p class="card-content">iOS Deveplopment has grown exponentially during the year of 2016. It appears more and more people$
+      <h3 class="card-title" id="second-to-last-portfolio-title"></h3>
+		 <p class="card-content" id="second-to-last-portfolio-content"></p>
      </div>
      <div class="card card-flex-3 clickable-card">
       <figure class="card-header green-tinted-header rounded-header">
-       <img src="imgs/ios-developer.jpg">
+       <img id="third-to-last-portfolio-img" src="imgs/ios-developer.jpg">
       </figure>
-      <h3 class="card-title">iOS Development</h3>
-      <p class="card-content">iOS Deveplopment has grown exponentially during the year of 2016. It$
+      <h3 class="card-title" id="third-to-last-portfolio-title"></h3>
+		 <p class="card-content" id="third-to-last-portfolio-content"></p>
      </div>
     </div>
    </div>

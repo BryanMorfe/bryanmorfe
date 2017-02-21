@@ -30,7 +30,7 @@
 			"download": "https://github.com/BryanMorfe/MemeMe/archive/master.zip"
 	  	},
 		{
-			"title": "PlainTextDatabase (PTDB)",
+			"title": "Plain Text Database (PTDB)",
 			"description": "PTDB is a python module that I wrote for fun. It is an effective and fast solution to store non sensitive data in a text file. It reads from a ptdb-formatted text file and parses all the information in the file. It was written in Python 2.7 but it's backwards compatible with Python 3.",
 			"featured-img": "/imgs/ptdb.png",
 			"github": "https://github.com/BryanMorfe/PTDB",

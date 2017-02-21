@@ -11,12 +11,15 @@ $(function() {
 			
 			var blogArray = JSON.parse(this.responseText);
 			blogObj = blogArray[0];
-			$("#blog-title").text(blogObj["post-title"]);
-			
+			$("#blog .card-header-title").text(blogObj["post-title"]);
+			$("#blog .card-header").css("background", "url(" + blogObj["featured-img"] + ") no-repeat");
 			var sectionObj = blogObj.sections[0];
+			var firstSectionTitle = sectionObj["section-title"];
+			
+			$("#blog .card-title").text(firstSectionTitle);
 			var firstSectionParagraphs = sectionObj["section-paragraphs"];
 			for (var i = 0; i < firstSectionParagraphs.length; i++) {
-				$("#blog-content").append("<p>" + firstSectionParagraphs[i] + "</p>");
+				$("#blog .card-content").append("<p>" + firstSectionParagraphs[i] + "</p>");
 			}
 		}
 	};

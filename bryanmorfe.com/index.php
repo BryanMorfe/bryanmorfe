@@ -35,10 +35,12 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
    			<div id="welcome-section" class="clearfix">
     			<div class="main-content">
      				<h2 class="section-title">WELCOME</h2>
-     				<div class="card card-flex-9 clickable-card">
-      					<img src="imgs/mypic.png" class="profile-img-lg">
-      					<h3 class="card-title" id="blog-title"></h3>
-      					<div class="card-content" id="blog-content"></div>
+     				<div class="card card-flex-9 clickable-card" id="blog">
+     					<figure class="card-header rounded-header">
+       						<h2 class="card-header-title"></h2>
+     				 	</figure>
+      					<h3 class="card-title"></h3>
+      					<div class="card-content"></div>
      				</div>
      				<div class="card card-flex-3 clickable-card">
       					<img src="imgs/mypic.png" class="profile-img-md">
@@ -53,24 +55,24 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
      				<h2 class="section-title">PROJECTS</h2>
      				<div class="card card-flex-6 clickable-card">
       					<figure class="card-header blue-tinted-header rounded-header">
-       						<img id="last-project-img" src="imgs/ios-development.jpg">
+       						<img src="imgs/ios-development.jpg">
       					</figure>
-      					<h3 class="card-title" id="last-project-title"></h3>
-      					<p class="card-content" id="last-project-content"></p>
+      					<h3 class="card-title"></h3>
+      					<p class="card-content"></p>
      				</div>
      				<div class="card card-flex-3 clickable-card">
       					<figure class="card-header green-tinted-header rounded-header">
-       						<img id="second-to-last-project-img" src="imgs/ios-developer.jpg">
+       						<img src="imgs/ios-developer.jpg">
       					</figure>
-      					<h3 class="card-title" id="second-to-last-project-title"></h3>
-      					<p class="card-content" id="second-to-last-project-content"></p>
+      					<h3 class="card-title"></h3>
+      					<p class="card-content"></p>
      				</div>
      				<div class="card card-flex-3 clickable-card">
       					<figure class="card-header green-tinted-header rounded-header">
-       						<img id="third-to-last-project-img" src="imgs/ios-developer.jpg">
+       						<img src="imgs/ios-developer.jpg">
       					</figure>
-      					<h3 class="card-title" id="third-to-last-project-title"></h3>
-						<p class="card-content" id="third-to-last-project-content"></p>
+      					<h3 class="card-title"></h3>
+						<p class="card-content"></p>
      				</div>
     			</div>
    			</div>
@@ -80,26 +82,26 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
      <h2 class="section-title">PORTFOLIO</h2>
      <div class="card card-flex-6 clickable-card">
       <figure class="card-header blue-tinted-header rounded-header">
-       <img id="last-portfolio-img" src="imgs/ios-development.jpg">
+       <img src="imgs/ios-development.jpg">
       </figure>
-      <h3 class="card-title" id="last-portfolio-title"></h3>
-		 <p class="card-content" id="last-portfolio-content"></p>
+      <h3 class="card-title"></h3>
+		 <p class="card-content"></p>
      </div>
      <div class="card card-flex-3 clickable-card">
       <figure class="card-header green-tinted-header rounded-header">
-       <img id="second-to-last-portfolio-img" src="imgs/ios-developer.jpg">
+       <img src="imgs/ios-developer.jpg">
       </figure>
-      <h3 class="card-title" id="second-to-last-portfolio-title"></h3>
-		 <p class="card-content" id="second-to-last-portfolio-content"></p>
+      <h3 class="card-title"></h3>
+		 <p class="card-content"></p>
      </div>
      <div class="card card-flex-3 clickable-card">
       <figure class="card-header green-tinted-header rounded-header">
-       <img id="third-to-last-portfolio-img" src="imgs/ios-developer.jpg">
+       <img src="imgs/ios-developer.jpg">
       </figure>
-      <h3 class="card-title" id="third-to-last-portfolio-title"></h3>
-		 <p class="card-content" id="third-to-last-portfolio-content"></p>
-     </div>
-    </div>
+      <h3 class="card-title"></h3>
+		 <p class="card-content"></p>
+		</div>
+				</div>
    </div>
 
   		</main>
@@ -129,7 +131,7 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
                         <ul>
                           <li><a href="#">Inner Circle</a></li>
                           <li><a href="#">Become a Contributor</a></li>
-                          <li><a href="#">Are you an iOS Developer? Let's Network</a></li>
+                          <li><a href="#">Are you a developer? Let's Network</a></li>
                         </ul>
                     </div>
                   </div>

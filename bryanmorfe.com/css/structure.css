@@ -163,6 +163,7 @@ button {
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+	overflow: scroll;
 }
 
 .card-header {
@@ -170,6 +171,12 @@ button {
     width: 100%;
     overflow: hidden;
     margin: 0;
+}
+
+.card-header-title {
+	line-height: 150px;
+	text-align: center;
+	color: white;
 }
 
 .card-header img {
@@ -217,7 +224,7 @@ button {
 
 .card-flex-3, .card-flex-4, .card-flex-6, .card-flex-8, .card-flex-9, .card-flex-12 {
     float: left;
-    min-height: 500px;
+    height: 500px;
 }
 
 .card-flex-3 {

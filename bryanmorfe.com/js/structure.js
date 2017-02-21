@@ -49,18 +49,13 @@ $(function() {
 			projectsObj = JSON.parse(this.responseText);
 			var projectsArray = projectsObj.projects;
 			
-			var lastProjectObj = projectsArray[0];
-			var secondToLastProjectObj = projectsArray[1];
-			var thirdToLastProjectObj = projectsArray[2];
+			var currentProject = $("#projects").children().not("h2");
 			
-			$("#last-project-title").text(lastProjectObj.title);
-			$("#last-project-content").text(lastProjectObj.description);
-			
-			$("#second-to-last-project-title").text(secondToLastProjectObj.title);
-			$("#second-to-last-project-content").text(secondToLastProjectObj.description);
-			
-			$("#third-to-last-project-title").text(thirdToLastProjectObj.title);
-			$("#third-to-last-project-content").text(thirdToLastProjectObj.description);
+			for (var i = 0; i < projectsArray.length; i++) {
+				currentProject.children(".card-title").text(projectsArray[i].title);
+				currentProject.children(".card-content").text(projectsArray[i].description);
+				currentProject = currentProject.next();
+			}
 		}	
 	};
 	
@@ -77,18 +72,13 @@ $(function() {
 			portfolioObj = JSON.parse(this.responseText);
 			var portfolioArray = portfolioObj.portfolio;
 			
-			var lastPortfolioObj = portfolioArray[0];
-			var secondToLastPortfolioObj = portfolioArray[1];
-			var thirdToLastPortfolioObj = portfolioArray[2];
+			var currentPortfolio = $("#portfolio").children().not("h2");
 			
-			$("#last-portfolio-title").text(lastPortfolioObj.title);
-			$("#last-portfolio-content").text(lastPortfolioObj.description);
-			
-			$("#second-to-last-portfolio-title").text(secondToLastPortfolioObj.title);
-			$("#second-to-last-portfolio-content").text(secondToLastPortfolioObj.description);
-			
-			$("#third-to-last-portfolio-title").text(thirdToLastPortfolioObj.title);
-			$("#third-to-last-portfolio-content").text(thirdToLastPortfolioObj.description);
+			for (var i = 0; i < portfolioArray.length; i++) {
+				currentPortfolio.children(".card-title").text(portfolioArray[i].title);
+				currentPortfolio.children(".card-content").text(portfolioArray[i].description);
+				currentPortfolio = currentPortfolio.next();
+			}
 		}	
 	};
 	

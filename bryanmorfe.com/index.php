@@ -49,23 +49,23 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
    			</div>
 
   			<div id="projects-section" class="clearfix">
-    			<div class="main-content">
+    			<div class="main-content" id="projects">
      				<h2 class="section-title">PROJECTS</h2>
-     				<div class="card card-flex-6 clickable-card project">
+     				<div class="card card-flex-6 clickable-card">
       					<figure class="card-header blue-tinted-header rounded-header">
        						<img id="last-project-img" src="imgs/ios-development.jpg">
       					</figure>
       					<h3 class="card-title" id="last-project-title"></h3>
       					<p class="card-content" id="last-project-content"></p>
      				</div>
-     				<div class="card card-flex-3 clickable-card project">
+     				<div class="card card-flex-3 clickable-card">
       					<figure class="card-header green-tinted-header rounded-header">
        						<img id="second-to-last-project-img" src="imgs/ios-developer.jpg">
       					</figure>
       					<h3 class="card-title" id="second-to-last-project-title"></h3>
       					<p class="card-content" id="second-to-last-project-content"></p>
      				</div>
-     				<div class="card card-flex-3 clickable-card project">
+     				<div class="card card-flex-3 clickable-card">
       					<figure class="card-header green-tinted-header rounded-header">
        						<img id="third-to-last-project-img" src="imgs/ios-developer.jpg">
       					</figure>
@@ -76,7 +76,7 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
    			</div>
 
   			<div id="portfolio-section" class="clearfix">
-    <div class="main-content">
+    <div class="main-content" id="portfolio">
      <h2 class="section-title">PORTFOLIO</h2>
      <div class="card card-flex-6 clickable-card">
       <figure class="card-header blue-tinted-header rounded-header">

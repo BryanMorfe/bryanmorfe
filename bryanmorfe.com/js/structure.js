@@ -12,7 +12,7 @@ $(function() {
 			var blogArray = JSON.parse(this.responseText);
 			blogObj = blogArray[0];
 			$("#blog .card-header-title").text(blogObj["post-title"]);
-			$("#blog .card-header").css("background", "url(" + blogObj["featured-img"] + ") no-repeat");
+			$("#blog .card-header").css({"background": "url(" + blogObj["featured-img"] + ") no-repeat", "background-size": "cover", "background-position": "50% 50%"});
 			var sectionObj = blogObj.sections[0];
 			var firstSectionTitle = sectionObj["section-title"];
 			

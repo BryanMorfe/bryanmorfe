@@ -163,6 +163,7 @@ button {
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+	overflow: scroll;
 }
 
 .card-header {
@@ -170,6 +171,14 @@ button {
     width: 100%;
     overflow: hidden;
     margin: 0;
+}
+
+.card-header-title {
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.40);
 }
 
 .card-header img {
@@ -217,7 +226,7 @@ button {
 
 .card-flex-3, .card-flex-4, .card-flex-6, .card-flex-8, .card-flex-9, .card-flex-12 {
     float: left;
-    min-height: 500px;
+    height: 500px;
 }
 
 .card-flex-3 {
@@ -312,7 +321,7 @@ button {
 
 /* Sections */
 
-#welcome-section, #projects-section, #portfolio-section {
+.section {
     padding: 0.5% 0 0 1%;
 }
 
@@ -323,55 +332,68 @@ button {
     color: #555;
 }
 
-#welcome-section {
-    background-color: rgb(243, 248, 255);
-}
-
-#projects-section {
-    background-color: rgb(255, 255, 255);
-}
-
-#portfolio-section {
-    background-color: rgb(245, 255, 244);
-}
-
 /* Footer */
 
 #footer {
-	height: 200px;
+	color: #979797;
+	height: 290px;
 	background-color: #1F1F1F;
 }
 
-#footer p, #footer li, #footer a {
-	color: #FFFFFF;
+#footer .footer-nav {
+	margin-bottom: 25px;
 }
 
 #footer .footer-menu {
-	margin-top: 2px;
-	margin-bottom: 2px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 29.33%;
+}
+
+#footer .footer-menu .footer-menu-title {
+	font-family: 'Catamaran', sans-serif;
+	color: #606060;
+	margin-bottom: 5px;
 }
 
 #footer .footer-menu li {
 	font-family: 'Assistant', sans-serif;
-	margin-top: 5px;
+	margin-top: 7.5px;
+}
+
+#footer .footer-menu li a {
+	color: #979797;
+	-o-transition: color 0.3s;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+#footer .footer-menu li a:hover {
+	color: #575757;
+	margin: auto;
 }
 
 #footer #copy {
+	margin-top: 3px;
 	font-size: 90%;
 	text-align: center;
 }
 
 #footer .social-media {
-	margin: auto;
+	width: 100%;
+	text-align: center;
 }
 
 #footer .social-media li {
-	display: inline-block;
+	display: inline;
+	margin-left: 5px;
 	margin-right: 5px;
 }
 
 #footer .social-media-img {
-	background-color: white;
+	background-color: #323232;
     width: 30px;
     height: 30px;
     border-radius: 15px;

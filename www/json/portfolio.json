@@ -1,0 +1,40 @@
+{
+	"portfolio": 
+	[
+	  	{
+			"title": "On The Map",
+			"description": "On The Map is a project requirement to earn an iOS Development Nanodegree from Udacity.com. It consists in connecting the students of the nanodegree by sharing the location in a parse server hosted by Udacity and using the Udacity API to retrieve all necessary information of the users. It was written completely in Swift.",
+			"featured-img": "/imgs/on-the-map.png",
+			"github": "https://github.com/BryanMorfe/On-The-Map",
+			"download": "https://github.com/BryanMorfe/On-The-Map/archive/master.zip"
+	  	}, 
+	  	{
+			"title": "MemeMe",
+			"description": "MemeMe is a project requirement to earn an iOS Development Nanodegree from Udacity.com. MemeMe allows you to take or choose a photo and create a meme with it. You have can choose from three pre selected fonts and afterwards you can share or simply save you meme. It was written completely in Swift.",
+			"featured-img": "/imgs/mememe.png",
+			"github": "https://github.com/BryanMorfe/MemeMe",
+			"download": "https://github.com/BryanMorfe/MemeMe/archive/master.zip"
+	  	},
+		{
+			"title": "PitchPerfect",
+			"description": "PitchPerfect is a project requirement to earn an iOS Development Nanodegree from Udacity.com. PitchPerfect is a simple iOS App that allows you to record your voice and play it back with different effects like slow, fast, low pitch, high pitch, echo, and reverb. It was written completely in Swift.",
+			"featured-img": "/imgs/pitchperfect.png",
+			"github": "https://github.com/BryanMorfe/PitchPerfect",
+			"download": "https://github.com/BryanMorfe/PitchPerfect/archive/master.zip"
+	  	},
+		{
+			"title": "BryanMorfe.com",
+			"description": "BryanMorfe.com is the website you are using right now. It is part of my portfolio as I built it on my own from zero to one hundred, as of right now, it only uses one framework which is jQuery for JavaScript. It is written in HTML, CSS, PHP, JavaScript, and JavaScript Object Notation (JSON).",
+			"featured-img": "/imgs/mememe.png",
+			"github": "https://github.com/BryanMorfe/MemeMe",
+			"download": "https://github.com/BryanMorfe/MemeMe/archive/master.zip"
+	  	},
+		{
+			"title": "Plain Text Database (PTDB)",
+			"description": "PTDB is a python module that I wrote for fun. It is an effective and fast solution to store non sensitive data in a text file. It reads from a ptdb-formatted text file and parses all the information in the file. It was written in Python 2.7 but it's backwards compatible with Python 3.",
+			"featured-img": "/imgs/ptdb.png",
+			"github": "https://github.com/BryanMorfe/PTDB",
+			"download": "https://github.com/BryanMorfe/PTDB/archive/master.zip"
+	  	}
+	]
+}

@@ -1,0 +1,18 @@
+/* General Styling of the site */
+
+#welcome-section {
+    background-color: rgb(243, 248, 255);
+}
+
+#projects-section {
+    background-color: rgb(255, 255, 255);
+}
+
+#portfolio-section {
+    background-color: rgb(245, 255, 244);
+}
+
+.post-info p {
+	font-size: 90%;
+	margin-left: 20px;
+}

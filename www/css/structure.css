@@ -174,9 +174,11 @@ button {
 }
 
 .card-header-title {
-	line-height: 150px;
+	height: 75px;
+	line-height: 75px;
 	text-align: center;
 	color: white;
+	background-color: rgba(0, 0, 0, 0.40);
 }
 
 .card-header img {
@@ -318,6 +320,11 @@ button {
 }
 
 /* Sections */
+
+.post-info p {
+	font-size: 90%;
+	margin-left: 20px;
+}
 
 #welcome-section, #projects-section, #portfolio-section {
     padding: 0.5% 0 0 1%;

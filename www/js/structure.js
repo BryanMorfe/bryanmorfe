@@ -3,16 +3,15 @@ $(function() {
 	/* Load information from json files. */
 	
 	// Blog info
-	var blogObj;
-
 	var blogRequest = new XMLHttpRequest();
 	blogRequest.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			
 			var blogArray = JSON.parse(this.responseText);
-			blogObj = blogArray[0];
+			var blogObj = blogArray[0];
 			$("#blog .card-header-title").text(blogObj["post-title"]);
 			$("#blog .card-header").css({"background": "url(" + blogObj["featured-img"] + ") no-repeat", "background-size": "cover", "background-position": "50% 50%"});
+			var postInfoHTML = "<p>Post by <b>" + blogObj["post-author"] + "</b> on " + blogObj["post-date"] + "</p>";
+			$("#blog .post-info").html(postInfoHTML);
 			var sectionObj = blogObj.sections[0];
 			var firstSectionTitle = sectionObj["section-title"];
 			
@@ -26,14 +25,12 @@ $(function() {
 	blogRequest.open("GET", "json/blog.json", true);
 	blogRequest.send();
 	
-	// Auto bio info
-	var aboutMeObj;
-	
+	// Auto bio info	
 	var aboutMeRequest = new XMLHttpRequest();
 	aboutMeRequest.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			
-			aboutMeObj = JSON.parse(this.responseText);
+			var aboutMeObj = JSON.parse(this.responseText);
 			$("#about-me-name").text(aboutMeObj.firstName + aboutMeObj.lastName);
 			$("#about-me-content").append("<p>" + aboutMeObj.shortDesc + "</p>");
 		}	
@@ -42,14 +39,12 @@ $(function() {
 	aboutMeRequest.open("GET", "json/about-me.json", true);
 	aboutMeRequest.send();
 	
-	// Projects
-	var projectsObj;
-	
+	// Projects	
 	var projectsRequest = new XMLHttpRequest();
 	projectsRequest.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			
-			projectsObj = JSON.parse(this.responseText);
+			var projectsObj = JSON.parse(this.responseText);
 			var projectsArray = projectsObj.projects;
 			
 			var currentProject = $("#projects").children().not("h2");
@@ -65,14 +60,12 @@ $(function() {
 	projectsRequest.open("GET", "json/projects.json", true);
 	projectsRequest.send();
 	
-	// Portfolio
-	var portfolioObj;
-	
+	// Portfolio	
 	var portfolioRequest = new XMLHttpRequest();
 	portfolioRequest.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			
-			portfolioObj = JSON.parse(this.responseText);
+			var portfolioObj = JSON.parse(this.responseText);
 			var portfolioArray = portfolioObj.portfolio;
 			
 			var currentPortfolio = $("#portfolio").children().not("h2");

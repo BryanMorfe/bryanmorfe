@@ -39,6 +39,7 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
      					<figure class="card-header rounded-header">
        						<h2 class="card-header-title"></h2>
      				 	</figure>
+     				 	<div class="post-info clearfix"></div>
       					<h3 class="card-title"></h3>
       					<div class="card-content"></div>
      				</div>
@@ -59,6 +60,7 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
       					</figure>
       					<h3 class="card-title"></h3>
       					<p class="card-content"></p>
+      					<button class="btn btn-md btn-action card-button">GitHub</button>
      				</div>
      				<div class="card card-flex-3 clickable-card">
       					<figure class="card-header green-tinted-header rounded-header">
@@ -84,8 +86,9 @@ $url_path = "/bryanmorfe/bryanmorfe.com"
       <figure class="card-header blue-tinted-header rounded-header">
        <img src="imgs/ios-development.jpg">
       </figure>
-      <h3 class="card-title"></h3>
-		 <p class="card-content"></p>
+      	<h3 class="card-title"></h3>
+		<p class="card-content"></p>
+    	<button class="btn btn-md btn-option card-button">Download</button>
      </div>
      <div class="card card-flex-3 clickable-card">
       <figure class="card-header green-tinted-header rounded-header">

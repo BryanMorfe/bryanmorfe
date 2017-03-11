@@ -60,13 +60,20 @@ if ($_SERVER['HTTPS'] != "on") {
     <!-- Main Content -->
 	<main>
 
-	  <div class="main-content profile-picture">
+	  <div class="header">
+ 	    <h1>About Me</h1>
  	    <figure>
-  	  	  <img class="profile-img-xlg" src="/imgs/mypic.png">
+  	  	  <img class="profile-img-lg" src="/imgs/mypic.png">
   	    </figure>
-  	  </div>  
-  	  <div class="main-content" id="about-me"></div>
-
+  	    <h2>Bryan Morfe</h2>
+  	    <h3>iOS Developer</h3>
+  	  </div>
+  	  <div class="main-container">
+ 	    <div class="opaque-background">
+  	      <div class="main-content" id="about-me"></div>
+  	    </div>
+      </div>
+      
     </main>
   
     <!-- Footer Content -->

@@ -1,17 +1,26 @@
 /* About me Styling */
 
-main {
+.header {
 	background-color: darkcyan;
 	-webkit-background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
 	-o-background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
 	-moz-background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
 	background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
-	min-height: 500px;
-	padding: 20px;
+	padding: 10px;
+	text-align: center;
+	color: white;
 }
 
-.profile-picture figure {
-	float: right;
+.main-container {
+	background: url("/imgs/about-me-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.opaque-background {
+	background: rgba(0, 0, 255, 0.2);
+	padding: 20px;
 }
 
 #about-me h3, #about-me p {

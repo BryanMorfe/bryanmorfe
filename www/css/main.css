@@ -1,18 +1,34 @@
 /* General Styling of the site */
 
+.post-info p {
+	font-size: 90%;
+	margin-left: 20px;
+}
+
+#welcome-section, #projects-section, #portfolio-section {
+    padding: 0.5% 0 0 1%;
+}
+
 #welcome-section {
     background-color: rgb(243, 248, 255);
+	-webkit-background: linear-gradient(to bottom right, rgb(156, 189, 209), rgb(243, 248, 255));
+	-o-background: linear-gradient(to bottom right, rgb(156, 189, 209), rgb(243, 248, 255));
+	-moz-background: linear-gradient(to bottom right, rgb(156, 189, 209), rgb(243, 248, 255));
+	background: linear-gradient(to bottom right, rgb(156, 189, 209), rgb(243, 248, 255));
 }
 
 #projects-section {
     background-color: rgb(255, 255, 255);
+	-webkit-background: linear-gradient(to top right, rgb(245, 255, 244), rgb(243, 248, 255));
+	-o-background: linear-gradient(to top right, rgb(245, 255, 244), rgb(243, 248, 255));
+	-moz-background: linear-gradient(to top right, rgb(245, 255, 244), rgb(243, 248, 255));
+	background: linear-gradient(to top right, rgb(245, 255, 244), rgb(243, 248, 255));
 }
 
 #portfolio-section {
     background-color: rgb(245, 255, 244);
-}
-
-.post-info p {
-	font-size: 90%;
-	margin-left: 20px;
+	-webkit-background: linear-gradient(to bottom right, rgb(245, 255, 244), rgb(189, 255, 241));
+	-o-background: linear-gradient(to bottom right, rgb(245, 255, 244), rgb(189, 255, 241));
+	-moz-background: linear-gradient(to bottom right, rgb(245, 255, 244), rgb(189, 255, 241));
+	background: linear-gradient(to bottom right, rgb(245, 255, 244), rgb(189, 255, 241));
 }

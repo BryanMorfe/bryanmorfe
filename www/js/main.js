@@ -1,1 +1,1 @@
-// Current Page Scripting
+/* Current Page Scripting */

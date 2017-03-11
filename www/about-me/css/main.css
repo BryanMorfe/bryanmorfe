@@ -1,0 +1,36 @@
+/* About me Styling */
+
+main {
+	background-color: darkcyan;
+	-webkit-background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
+	-o-background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
+	-moz-background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
+	background: linear-gradient(to bottom right, rgb(23, 173, 191), rgb(151, 71, 242));
+	min-height: 500px;
+	padding: 20px;
+}
+
+.profile-picture figure {
+	float: right;
+}
+
+#about-me h3, #about-me p {
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#about-me h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#about-me h3:first-child {
+	margin-top: 10px;
+}
+
+#about-me p {
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-indent: 40px;
+}

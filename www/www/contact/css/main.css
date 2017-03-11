@@ -1,0 +1,22 @@
+
+main {
+	background: url("/imgs/contact.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blue-tint {
+	background: rgba(0, 0, 255, 0.1);
+	min-height: 500px;
+	padding: 20px;
+}
+
+.blue-tint svg {
+	display: block;
+	margin: auto;
+}
+
+main h3, main p {
+	color: white;
+	text-align: center;
+}

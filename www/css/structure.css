@@ -1,7 +1,7 @@
 
-/* Structures of bryanmorfe.com */
+/****** Style Structure of bryanmorfe.com ******/
 
-/* General and Resets */
+/***** General and Resets *****/
 
 body {
     margin: 0;
@@ -41,7 +41,7 @@ button {
     margin: auto;
 }
 
-/* Navigation bar */
+/***** Navigation bar *****/
 
 .nav {
     background-color: white;
@@ -52,6 +52,12 @@ button {
     -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-fixed {
+	top: 0;
+	z-index: 100;
+	position: fixed;
 }
 
 .nav ul {
@@ -67,22 +73,20 @@ button {
 }
 
 .nav li a {
-    color: #888;
-    font-family: 'Assistant', sans-serif;
+    color: #999;
+    font-family: 'Yantramanav', sans-serif;
     font-size: 20px;
     text-align: center;
     vertical-align: middle;
 
-    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
-
-    -o-transition: text-shadow 0.2s;
-    -webkit-transition: text-shadow 0.2s;
-    -moz-transition: text-shadow 0.2s;
-	transition: text-shadow 0.2s;
+    -o-transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+	transition: color 0.3s;
 }
 
 .nav li a:hover {
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
+    color: #666;
 }
 
 .nav button {
@@ -91,11 +95,11 @@ button {
     margin-right: 1%;
 }
 
-/* Buttons */
+/***** Buttons *****/
 
 .btn {
     border-radius: 5px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
     -o-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
@@ -110,7 +114,7 @@ button {
 .btn-md {
     width: 140px;
     height: 40px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .btn-option {
@@ -138,7 +142,7 @@ button {
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-/* Cards */
+/***** Cards *****/
 
 .card p {
     color: #888;
@@ -290,7 +294,8 @@ button {
 
 }
 
-/* Profile Images */
+/***** Profile Images *****/
+
 .profile-img-xsm {
     background-color: white;
     width: 50px;
@@ -319,7 +324,14 @@ button {
     border-radius: 100px;
 }
 
-/* Sections */
+.profile-img-xlg {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+/***** Sections *****/
 
 .section {
     padding: 0.5% 0 0 1%;
@@ -332,7 +344,61 @@ button {
     color: #555;
 }
 
-/* Footer */
+/***** Form *****/
+
+form {
+	width: 500px;
+	margin: auto;
+}
+
+form input, form select, form textarea {
+	margin: 20px;
+	padding: 10px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	border: none;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 18px;
+	-webkit-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	transition: box-shadow 0.3s;
+}
+
+form select {
+	background-color: white;
+	background-image: none;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+
+form textarea {
+	height: 200px;
+}
+
+form input[type="submit"] {
+	background-color: rgb(255, 89, 80);
+	color: white;
+}
+
+form input[type="submit"]:hover {
+	background-color: rgb(199, 69, 62);
+}
+
+form input:focus, form select:focus, form textarea:focus {
+	outline: none;
+	-webkit-box-shadow: 0 0 8px white;
+	-o-box-shadow: 0 0 8px white;
+	-moz-box-shadow: 0 0 8px white;
+	box-shadow: 0 0 8px white;
+}
+
+/***** Footer *****/
 
 #footer {
 	color: #979797;
@@ -358,7 +424,7 @@ button {
 }
 
 #footer .footer-menu li {
-	font-family: 'Assistant', sans-serif;
+	font-family: 'Yantramanav', sans-serif;
 	margin-top: 7.5px;
 }
 
@@ -399,7 +465,7 @@ button {
     border-radius: 15px;
 }
 
-/* Clear fix */
+/***** Clear fix *****/
 
 .clearfix:after {
     content: " "; /* Older browser do not support empty content */

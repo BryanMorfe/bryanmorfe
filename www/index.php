@@ -1,3 +1,15 @@
+<?php
+/* Require https */
+
+/* Only Enabled when HTTPS is necessary */
+/*
+if ($_SERVER['HTTPS'] != "on") {
+    $url = "https://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    header("Location: $url");
+    exit;
+}
+*/
+?>
 <!doctype html>
 <html>
   <head>
@@ -11,13 +23,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   	
   	<!-- Add Ons -->
-  	<link href="https://fonts.googleapis.com/css?family=Assistant:300|Catamaran:800|Noto+Sans|Palanquin:100|Raleway:200" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Yantramanav:100|Catamaran:800|Noto+Sans|Palanquin:100|Raleway:200" rel="stylesheet">
   	
   	<!-- Structure -->
     <link href="/css/structure.css" rel="stylesheet">
     <script src="/js/structure.js"></script>
   	
-  	<!-- Main Styling and Scripting -->
+  	<!-- Page Styling and Scripting -->
   	<link rel="stylesheet" href="css/main.css">
   	<script src="js/main.js"></script>
   	
@@ -38,8 +50,8 @@
       	     <li><a href="/about-me">About Me</a></li>
       	     <li><a href="/contact">Contact</a></li>
      	   </ul>
-     	   <button class="btn btn-md btn-action">Blog</button>
-     	   <button class="btn btn-md btn-option">Resume</button>
+     	   <a href="/blog"><button class="btn btn-md btn-action">Blog</button></a>
+		   <a href="/downlaods/resume.pdf"><button class="btn btn-md btn-option">Resume</button></a>
          </div>
    	   </div>
    	   
@@ -96,7 +108,7 @@
           <!-- Secondary Project -->
           <div class="card card-flex-3 clickable-card">
             <figure class="card-header green-tinted-header rounded-header">
-              <img src="imgs/ios-developer.jpg">
+              <img src="/imgs/ios-developer.jpg">
             </figure>
             <h3 class="card-title"></h3>
             <p class="card-content"></p>
@@ -179,8 +191,8 @@
           <div class="footer-menu">
             <h4 class="footer-menu-title">PERSONAL</h4>
             <ul>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="/downloads/resume.pdf">Resume</a></li>
+              <li><a href="/blog">Blog</a></li>
             </ul>
           </div>
     
@@ -198,12 +210,11 @@
         
         <!-- Social Media Links -->
         <ul class="social-media">
-  	      <li><a href="https://www.linkedin.com/in/bryan-morfe-911277127/"><img class="social-media-img" src="/imgs/Linkedin.png" alt="LinkedIn"></a></li>
-  	      <li><a href="https://github.com/BryanMorfe/"><img class="social-media-img" src="/imgs/GitHub.png" alt="GitHub"></a></li>
-  	      <li><a href="https://twitter.com/bryanmorfe"><img class="social-media-img" src="/imgs/Twitter.png" alt="Twitter"></a></li>
-  	      <li><a href="https://www.facebook.com/profile.php?id=809519151"><img class="social-media-img" src="/imgs/Facebook.png" alt="Facebook"></a></li>
-  	      <li><a href="https://instagram.com/bryanmorfe"><img class="social-media-img" src="/imgs/Instagram.png" alt="Instagram"></a></li>
-  	      <li><a href="https://plus.google.com/u/1/+brzrtEvolucionMusical"><img class="social-media-img" src="/imgs/Google+.png" alt="Google+"></a></li>
+  	      <li><a href="https://www.linkedin.com/in/bryan-morfe-911277127/" target="_blank"><img class="social-media-img" src="/imgs/Linkedin.png" alt="LinkedIn"></a></li>
+  	      <li><a href="https://github.com/BryanMorfe/" target="_blank"><img class="social-media-img" src="/imgs/GitHub.png" alt="GitHub"></a></li>
+  	      <li><a href="https://twitter.com/bryanmorfe" target="_blank"><img class="social-media-img" src="/imgs/Twitter.png" alt="Twitter"></a></li>
+  	      <li><a href="https://instagram.com/bryanmorfe" target="_blank"><img class="social-media-img" src="/imgs/Instagram.png" alt="Instagram"></a></li>
+  	      <li><a href="https://plus.google.com/u/1/+brzrtEvolucionMusical" target="_blank"><img class="social-media-img" src="/imgs/Google+.png" alt="Google+"></a></li>
   	    </ul>
   	    
   	    <!-- Copyrights -->
